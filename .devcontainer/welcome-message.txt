@@ -1,0 +1,21 @@
+👋 Welcome to the D-Lab GitHub Copilot Python Workshop!
+
+🚀 Your development environment is ready to go with:
+   • Python 3.11 with pandas, matplotlib, seaborn, and more
+   • Jupyter notebooks for interactive coding
+   • GitHub Copilot for AI-assisted programming
+   • All workshop materials pre-loaded
+
+📚 Getting Started:
+   1. Open workshop.ipynb to begin the workshop
+   2. Try GitHub Copilot by pressing Ctrl+Shift+I (or Cmd+Shift+I on Mac) to open chat
+   3. Use Shift+Enter to run notebook cells
+   4. Press Tab to accept Copilot suggestions as you type
+
+💡 Quick Tips:
+   • All Python packages are pre-installed and ready to use
+   • Your plots will display inline in the notebook
+   • Use Ctrl+I (Cmd+I) for inline Copilot chat
+   • Check out README.md for detailed instructions
+
+Happy coding with Copilot! 🐍✨

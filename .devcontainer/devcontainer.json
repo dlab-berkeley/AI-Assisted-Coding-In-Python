@@ -1,0 +1,40 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "name": "GitHub-Copilot Python Workshop",
+  "postCreateCommand": "pip install -r requirements.txt && sudo cp --force ./.devcontainer/welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "jupyter.askForKernelRestart": false,
+        "jupyter.interactiveWindow.textEditor.executeSelection": true,
+        "notebook.cellToolbarLocation": {
+          "default": "right",
+          "jupyter-notebook": "left"
+        },
+        "editor.wordWrap": "on",
+        "python.formatting.provider": "black",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true
+      },
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat",
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "forwardPorts": [8888],
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter",
+      "onAutoForward": "notify"
+    }
+  }
+}

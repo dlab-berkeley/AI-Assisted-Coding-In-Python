@@ -6,3 +6,4 @@ scipy>=1.10.0
 scikit-learn>=1.2.0
 statsmodels>=0.14.0
 jupyter>=1.0.0
+ipykernel>=6.16.0
