@@ -28,7 +28,7 @@ After this workshop, you will be able to:
 
 ## Installation Instructions - VSCode
 
-We will use Visual Studio Code, GitHub Copilot, and R to go through the workshop materials. We will walk through installing and setting up Visual Studio Code during the workshop, but you must have an existing subscription to GitHub Co-pilot and have R installed. 
+We will use Visual Studio Code, GitHub Copilot, and Python to go through the workshop materials. We will walk through installing and setting up Visual Studio Code during the workshop, but you must have an existing subscription to GitHub Co-pilot and have Python installed. 
 
 ### Before the workshop:
 
