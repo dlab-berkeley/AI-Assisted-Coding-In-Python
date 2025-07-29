@@ -50,12 +50,12 @@ Detailed installation instructions (including troubleshooting steps) can be foun
 ## Is Visual Studio Code not Working on Your Computer?
 
 If you do not have Visual Studio Code installed and the materials loaded on your
-workshop by the time it starts, we *strongly* recommend using our GitHub codespace to run the materials for these lessons. 
+workshop by the time it starts, we *strongly* recommend using our **GitHub Codespaces** to run the materials for these lessons. 
 
 You can create a codespace for this repository:
 1. Click the green "Code" button in the top right of the repository information.
    
-2. Click "Open with Codespaces".
+2. Click "Codespaces" -> "Create codespace on main"
    
 3. Wait for the codespace to load. This may take a few minutes.
 
@@ -63,7 +63,7 @@ The codespace uploads this repository, along with any necessary packages, and
 allows you to run the materials in the cloud in a virtual Visual Studio Code that will look basically like what is on your computer.
 No installation is necessary from your end, you only need an internet browser. To download your work from the codespace, right-click on the file you want to download in the `Explorer` panel on the left-hand side and click `Download...` (Note: you may have to click `Allow` on a security pop-up). If you are comfortable with Git, you can also fork this repository and commit your changes to your fork (instructions [here](https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle#saving-changes-in-a-codespace)). 
 
-**Even if you are using our codespace you must have your own GitHub Copilot subscription; the codespace is linked to your GitHub account.** If you are using a free GitHub account, you automatically get [120 free codespace core-hours per month](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces). This 2 hour workshop should only use 4 core-hours.
+**Even if you are using our codespace you must have your own GitHub Copilot subscription; the codespace is linked to your GitHub account.** If you are using a free GitHub account, you automatically get [120 free codespace core-hours per month](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces). This 2-hour workshop should only use 4 core-hours.
 
 ## Run the Code
 
@@ -75,7 +75,7 @@ Now that you have all the required software and materials, you need to open the 
    
 3.  Use the file navigator to find the GitHub-Copilot folder you downloaded from Github and click "Open".
    
-4.  Open up the `workshop.Rmd` file in the `lessons` folder via the Files panel in Visual Studio Code (left-hand side).
+4.  Open up the `workshop.ipynb` file in the `lessons` folder via the Files panel in Visual Studio Code (left-hand side).
    
 5.  The `solutions` folder contains the solutions to the challenge problems.
    
