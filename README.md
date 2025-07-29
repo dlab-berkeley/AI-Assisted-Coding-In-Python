@@ -1,20 +1,16 @@
-# D-Lab's R Copilot Assisted Coding Workshop
+# D-Lab's Python Copilot Assisted Coding Workshop
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This repository contains the materials for D-Lab R Copilot Assisted Coding Workshop. 
+This repository contains the materials for the D-Lab Python Copilot Assisted Coding Workshop.
 
 ### Prerequisites
 
-Though GitHub Copilot is language agnostic, our examples will be in R. Therefore, we recommend attending D-Lab's [R
-Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals) series
-prior to this workshop. If you use a language that is not R, you are still welcome to attend. Many of the examples will have analogs in other languages, such as Python.
-
-Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
+GitHub Copilot is language agnostic. You can use it with Python, R, or other languages. We will be using some Python examples so recommend you take D-Lab's [Python Fundamentals](https://github.com/dlab-berkeley/python-fundamentals) first. 
 
 ## Workshop Goals
 
-This workshop provides an introduction to coding with GitHub Copilot, an AI-powered coding assistant that can help you write code faster and more efficiently. First, we’ll cover how to install and set-up Visual Studio Code, a free code editor through which we will use GitHub Copilot. Then, we will go through the different features of GitHub Copilot and how to use them to help us code in R. 
+This workshop provides an introduction to coding with GitHub Copilot, an AI-powered coding assistant that can help you write code faster and more efficiently. First, we’ll cover how to install and set-up Visual Studio Code, a free code editor through which we will use GitHub Copilot. Then, we will go through the different features of GitHub Copilot and how to use them to help us code in Python. 
 
 ## Learning Objectives
 
@@ -24,19 +20,19 @@ After this workshop, you will be able to:
    
 2.  Take advantage of the main functionalities of GitHub Copilot for coding.
    
-3.  Understand some of the strengths and weaknesses of AI coding assistants.
+3.  Understand some of the strengths and weaknesses of AI coding assistants in Python.
 
 **⚠️ You must have an active subscription to GitHub Copilot to follow the material in this workshop** (you still may attend even if you do not). If you are a student or teacher, you can apply for free Github Copilot (see information [here](copilot_and_vscode_setup.md)); the application is easy, however **it can take a few days to process (GitHub warns it can even take up to two weeks &mdash; though we have found it generally takes 2-3 days)**. Otherwise, you will have to pay for a subscription which starts at $10/month (plans available [here](https://github.com/features/copilot/plans)). If this is your first time using Copilot, you can also start a 30 day free trial.
 
 ⚠️ At the start of the workshop we will install Visual Studio Code and the workshop materials from this repository. If you want to do that yourself beforehand, please follow the instructions below.
 
-## Installation Instructions
+## Installation Instructions - VSCode
 
 We will use Visual Studio Code, GitHub Copilot, and R to go through the workshop materials. We will walk through installing and setting up Visual Studio Code during the workshop, but you must have an existing subscription to GitHub Co-pilot and have R installed. 
 
 ### Before the workshop:
 
-Follow the instructions [here](copilot_and_vscode_setup.md) to subscribe to GitHub Copilot and [here](https://github.com/dlab-berkeley/R-Fundamentals#installation-instructions) to install R. These instructions also describe setting up GitHub Copilot in Visual Studio Code, but you do not need to complete these steps before the workshop.
+Follow the instructions [here](copilot_and_vscode_setup.md) to subscribe to GitHub Copilot and [here](https://github.com/dlab-berkeley/python-fundamentals#installation-instructions) to install Python. The following instructions describe setting up GitHub Copilot in Visual Studio Code -- feel free to do so, but we will do this in the workshop as well. 
 
 ### During the workshop (or optionally before):
 
@@ -85,6 +81,31 @@ Now that you have all the required software and materials, you need to open the 
    
 6.  You will need to install the R extension in Visual Studio Code to run any R code and the Copilot extension to use Copilot, which we will walk through in the workshop. If you would like to install them beforehand check out the instructions [here](copilot_and_vscode_setup.md).
 
+
+# Other D-Lab Python and AI Workshops
+
+Here are other Python and AI workshops offered by the D-Lab:
+
+### Basic competency
+
+* [Python Fundamentals](https://github.com/dlab-berkeley/Python-Fundamentals)
+* [Python GPT Fundamentals](https://github.com/dlab-berkeley/python-gpt-fundamentals)
+* [Python Data Wrangling](https://github.com/dlab-berkeley/Python-Data-Wrangling)
+* [Python Data Visualization](https://github.com/dlab-berkeley/Python-Data-Visualization)
+* [Geospatial Fundamentals in Python](https://github.com/dlab-berkeley/Geospatial-Fundamentals-in-Python)
+
+### Intermediate/advanced competency
+
+* [Python Text Analysis](https://github.com/dlab-berkeley/python-text-analysis)
+* [Python Machine Learning](https://github.com/dlab-berkeley/python-machine-learning)
+* [Python Deep Learning](https://github.com/dlab-berkeley/python-deep-learning)
+
+### AI Workshops
+
+* [Demystifying AI](https://github.com/dlab-berkeley/Demystifying_AI)
+* [R Copilot Assisted Coding](https://github.com/dlab-berkeley/R-Copilot-Assisted-Coding-Workshop) -- this workshop but using R.
+* [LLMs for Exploratory Research](https://github.com/dlab-berkeley/LLMs-Exploratory-Research)
+
 # Additional Resources
 
 Check out the following resources to learn more about Visual Studio Code and GitHub Copilot:
@@ -101,6 +122,5 @@ Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us. Y
 
 # Contributors
 
+[Tom van Nuenen](https://tomvannuenen.github.io/)
 [Anusha Bishop](https://anushapb.github.io/)
-
-*This repository was created with material from the [codespacer](https://github.com/AnushaPB/codespacer/tree/main) GitHub template created by Anusha Bishop*
