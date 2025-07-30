@@ -1,8 +1,8 @@
-# D-Lab's AI-Assisted Coding with Python Workshop
+# D-Lab's AI-Assisted Coding In Python Workshop
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This repository contains the materials for the D-Lab AI-Assisted Coding with Python Workshop.
+This repository contains the materials for the D-Lab AI-Assisted Coding In Python Workshop.
 
 ### Prerequisites
 
