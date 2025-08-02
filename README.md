@@ -4,7 +4,7 @@
 
 This repository contains the materials for the D-Lab AI-Assisted Coding In Python Workshop.
 
-### Prerequisites
+## Prerequisites
 
 GitHub Copilot is language agnostic. You can use it with Python, R, or other languages. We will be using some Python examples so recommend you take D-Lab's [Python Fundamentals](https://github.com/dlab-berkeley/python-fundamentals) first. 
 
