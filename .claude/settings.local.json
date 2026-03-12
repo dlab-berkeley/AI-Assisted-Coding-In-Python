@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"\nimport json\n\npath = '/Users/tomvannuenen/Dropbox/GitHub/DEV/AI-Assisted-Coding-In-Python/lessons/workshop 2.ipynb'\nwith open\\(path\\) as f:\n    content = f.read\\(\\)\n\nfixed = content.replace\\('../../img/', '../images/'\\)\n\nwith open\\(path, 'w'\\) as f:\n    f.write\\(fixed\\)\n\nprint\\('Done. Replacements made:'\\)\nprint\\(content.count\\('../../img/'\\), 'occurrences replaced'\\)\n\")",
+      "WebFetch(domain:dlab.berkeley.edu)"
+    ]
+  }
+}
